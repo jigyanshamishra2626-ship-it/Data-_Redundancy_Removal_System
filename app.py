@@ -5,7 +5,7 @@ from pymongo.errors import ConnectionFailure
 app = Flask(__name__)
 
 # Aapka MongoDB Atlas connection link
-MONGO_URI = "mongodb+srv://jigyanshamishra2626_db_user:7WCw14ze2RDa0PRA@cluster0.d07suzi.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+MONGO_URI = "mongodb+srv://jigyanshamishra2626_db_user:<PASSWORD>@cluster0.d07suzi.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
 
 try:
     # Connection timeout ko thoda flexible rakha hai
